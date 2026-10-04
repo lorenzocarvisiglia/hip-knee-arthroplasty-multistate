@@ -1,0 +1,17 @@
+# restricted data
+data/raw/*
+!data/raw/.gitkeep
+
+# generated outputs
+output/*
+!output/.gitkeep
+
+# local R files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# system files
+.DS_Store
+Thumbs.db
